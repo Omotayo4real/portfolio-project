@@ -3,14 +3,14 @@ import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className='bg-black text-white py-20' id='contact'>
+    <div className='bg-black text-white py-20' id='Contact'>
       <div className='container mx-auto px-8 md:px-16 lg:px-24'>
         <h2 className='text-4xl text-bold text-center mb-12'>Contacts Me</h2>
         <div className='flex flex-col md:flex-row items-center md:space-x-12'>
               <div className='flex-1'>
                 <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r
                                from-green-400 to-blue-800 mb-4">Let Us Talk.</h3>
-                <p>I am open to duscussing web development projects or partnership<br/> opportunities</p>
+                <p>I am open to discussing web development projects or partnership<br/> opportunities</p>
                <div className="mb-4 mt-8">
                 <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
                 <a href="mailto:omotayoenisan9@gmail.com"className="hover:underline"> omotayoenisan9@gmail.com </a>
@@ -25,7 +25,8 @@ const Contact = () => {
                 <span>No 5, lewis street, Santos Layout, Akowonjo, Lagos, Nigeria.</span>
               </div>
             </div>
-            </div>
+          </div>
+
          <div className="flex-1">
             <form className="space-y-2">
               <label htmlFor="name" className="block mb-2">Your Name</label>
