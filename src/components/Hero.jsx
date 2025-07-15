@@ -1,7 +1,7 @@
 import tayo from "../assets/tayo.jpg";
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16 mt-12'>
+    <div className='bg-black text-white text-center py-16 px-2 mt-12'>
       <img src={tayo} alt="" className='mx-auto mb-8 h-48 w-48 rounded-full 
                                               object-full transform transition-transform duration-300
                                               hover:scale-105'/>
