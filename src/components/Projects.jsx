@@ -77,7 +77,7 @@ const Projects = () => {
                                                      transform transition-transform duration-300
                                                       hover:scale-105'>
 
-                       <a href={project.link} target="_blank" className="text-blue-800 underline"> <img src={project.image} alt='' className='rounded-lg mb-4 w-full  object-cover'/>Click here</a>  
+                       <a href={project.link} target="_blank" className="text-blue-800 underline"> <img src={project.image} alt='' className='rounded-lg mb-4 w-full  object-cover'/></a>  
                         <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
                         <p className='text-gray-400 mb-4'>{project.technologies}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r from-green-400
