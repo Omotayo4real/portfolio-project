@@ -61,7 +61,7 @@ const projects = [
         name: 'Product Page',
         technologies: 'React js & Tailwind CSS',
         image: image3,
-        git: 'https://github.com/Omotayo4real/landing-project',
+        github: 'https://github.com/Omotayo4real/landing-project',
         link: "https://landing-project-pi-lovat.vercel.app/"
     },
 ]
